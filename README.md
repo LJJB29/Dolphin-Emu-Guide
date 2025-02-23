@@ -54,6 +54,22 @@ Easy:
 3. Right click it on dolphins main menu
 4. Select Install To The NAND
 
+This is also how you install other wads aswell
+
+## Use an Acual Wii Remote
+1. go to controller setings and select Real wii remote under Wii Remote #1
+2. Set Continuous scanning to on
+3. On The Wii Remote Open The Battery Cover and press the little red button
+4. Wait for the Wii Remote To Vibrate to show it has connected
+5. Buy The [Dolphin Sensor Bar From Amazon](https://www.amazon.co.uk/Mayflash-W010-Dolphin-Bar-Wireless/dp/B00HZWEB74/ref=sr_1_3?sr=8-3)
+
+## Use An Actual GameCube Controller
+1. Buy The [GAmecube Controller Adapter For PC From Amazon](https://www.amazon.co.uk/Controller-Adapter-Converter-Vibration-Features/dp/B0DSF877CF/ref=sr_1_6?sr=8-6) (Also Works On Nintendo Switch And Wii U)
+2. Plug in your Controller And set it as GameCube Controller #1
+
+## MOre Coming Soon Cuz For Now i hav to go to school (ihml) 3:
+
+
 
 
 
