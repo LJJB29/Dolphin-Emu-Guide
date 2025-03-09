@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Full Dolphin Emulator Guide</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Body Style */
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #005a87;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #005a87;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        ol, ul {
+            padding-left: 20px;
+        }
+
+        ol li, ul li {
+            margin-bottom: 10px;
+        }
+
+        .link {
+            color: #005a87;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #005a87;
+            color: white;
+        }
+
+        /* Make links stand out */
+        a {
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Full Dolphin Emulator Guide</h1>
+    <p>An Easy-to-Follow Guide for Dolphin Emulator and How to (Legally) Use It</p>
+    <p><strong>(This IS NOT a Guide for Android)</strong></p>
+</header>
+
+<div class="container">
+    <h2>How Do I Install the Emulator?</h2>
+    <p>Follow these steps to install Dolphin Emulator:</p>
+    <ol>
+        <li>Visit <a href="https://dolphin-emu.org/" class="link" target="_blank">Dolphin Emulator's Official Website</a> and click the "Download Dolphin" button for your operating system.</li>
+        <li>Download the latest version for your operating system and architecture. <strong>Tip:</strong> You might need to install the <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170" class="link" target="_blank">64-bit Visual C++ Redistributable for Visual Studio 2022</a> for Windows users.</li>
+        <li>Once the download is complete, locate the zip file in your File Explorer (Windows) or Finder (Mac) and extract it.</li>
+    </ol>
+
+    <h2>Congratulations!</h2>
+    <p>You’ve successfully installed Dolphin Emulator on your PC!</p>
+
+    <h2>How Do I Add My Legally Aquired Games Into the Emulator?</h2>
+    <p><strong>Note:</strong> Only use legally acquired games to avoid any legal issues. Piracy is not recommended!</p>
+    <p>There are <strong>2 legal ways</strong> to do this:</p>
+
+    <h3>Option 1: Using an External Drive</h3>
+    <ol>
+        <li>Purchase an <a href="https://www.amazon.co.uk/External-Portable-Desktop-MacBook-Windows/dp/B09VGP5ZSF/ref=sr_1_5?sr=8-5" class="link" target="_blank">External Drive for £10 on Amazon</a>.</li>
+        <li>Insert the disk into the external drive.</li>
+        <li>Extract the game files from the disk. (Note: This step may not work for every game.)</li>
+    </ol>
+
+    <h3>Option 2: Using a Homebrewed Wii and USB Stick</h3>
+    <ol>
+        <li>Install <strong>USB Loader GX</strong> to your homebrewed Wii via the Homebrew Channel.</li>
+        <li>Insert the disk into your console.</li>
+        <li>Open <strong>USB Loader GX</strong> and wait for the pop-up.</li>
+        <li>Select <strong>Extract Disk</strong> to copy the game onto your USB.</li>
+        <li>Plug the USB into your computer.</li>
+        <li>Move the games to your <code>C:\ Drive</code>.</li>
+        <li>You can also extract WADs (Channels) this way!</li>
+    </ol>
+
+    <h2>How to Add Games into Dolphin Emulator</h2>
+    <ol>
+        <li>Open Dolphin Emulator.</li>
+        <li>Click on the text that says <strong>No Games Found</strong> on the main menu.</li>
+        <li>Select the directory where your games are stored.</li>
+        <li><strong>Done!</strong> Your games are now available in Dolphin Emulator!</li>
+    </ol>
+
+    <h2>How Do I Get the Wii System on Dolphin Emulator?</h2>
+    <ol>
+        <li>Click the <strong>Tools</strong> button at the top of the screen.</li>
+        <li>Select <strong>Update Wii System Menu</strong>.</li>
+        <li>Choose your region (e.g., USA).</li>
+        <li>Wait for the update to finish.</li>
+        <li>Once completed, press <strong>Load Wii System Menu [Version]</strong>.</li>
+    </ol>
+
+    <h2>Optional: Homebrewing the Virtual Wii</h2>
+    <ol>
+        <li>Download the latest <strong>Homebrew Channel Wad</strong> from releases.</li>
+        <li>Place it in your <strong>Games</strong> folder.</li>
+        <li>Right-click the file in Dolphin's main menu and select <strong>Install to the NAND</strong>.</li>
+        <li>This method also works for installing other WAD files!</li>
+    </ol>
+
+    <h2>How to Use an Actual Wii Remote with Dolphin</h2>
+    <ol>
+        <li>Go to <strong>Controller Settings</strong> and select <strong>Real Wii Remote</strong> under <strong>Wii Remote #1</strong>.</li>
+        <li>Turn <strong>Continuous Scanning</strong> to ON.</li>
+        <li>On the Wii Remote, open the battery cover and press the little red sync button.</li>
+        <li>Wait for the Wii Remote to vibrate, indicating it's connected.</li>
+        <li>Buy the <a href="https://www.amazon.co.uk/Mayflash-W010-Dolphin-Bar-Wireless/dp/B00HZWEB74/ref=sr_1_3?sr=8-3" class="link" target="_blank">Dolphin Sensor Bar from Amazon</a> for a better experience!</li>
+    </ol>
+
+    <h2>How to Use an Actual GameCube Controller</h2>
+    <ol>
+        <li>Buy the <a href="https://www.amazon.co.uk/Controller-Adapter-Converter-Vibration-Features/dp/B0DSF877CF/ref=sr_1_6?sr=8-6" class="link" target="_blank">GameCube Controller Adapter for PC</a> from Amazon.</li>
+        <li>Plug your controller into the adapter and set it as <strong>GameCube Controller #1</strong> in Dolphin's settings.</li>
+    </ol>
+
+    <h2>More Coming Soon!</h2>
+    <p>Unfortunately, I have to go to school now (ugh, I know), but I’ll add more to this guide soon. Stay tuned for updates!</p>
+</div>
+
+<footer>
+    <p>&copy; 2025 Dolphin Emulator Guide. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
