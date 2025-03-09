@@ -1,38 +1,42 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     background-color: #f4f4f4;
     color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: left; /* Aligns all text to the left */
 }
 
 h1 {
+    font-size: 32px; /* Increases heading size */
     color: #0073e6;
+    margin-bottom: 10px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+h2 {
+    font-size: 28px;
+    color: #005bb5;
+    margin-bottom: 8px;
 }
 
-li {
-    margin: 10px 0;
+p, li {
+    font-size: 20px; /* Makes normal text bigger */
+    line-height: 1.6;
+}
+
+ol, ul {
+    font-size: 20px;
+    list-style-position: outside; /* Ensures numbers are aligned left */
+    margin-left: 20px;
 }
 
 a {
     text-decoration: none;
     color: #0073e6;
     font-weight: bold;
+    font-size: 20px;
 }
 
 a:hover {
     color: #005bb5;
-}
-
-ol {
-    list-style-type: decimal; /* Ensures numbers appear */
-    margin-left: 20px; /* Adds spacing for numbers */
-}
-
-li {
-    margin-bottom: 8px; /* Adds space between steps */
 }
